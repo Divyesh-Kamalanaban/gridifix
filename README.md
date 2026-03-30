@@ -5,15 +5,7 @@ This is my first ever ML project, where I had to learn about CIGRE-MV Networks, 
 - Underfitting means the model is too simple for the complex dataset, hence performing poor on both train and test datasets!
 - Overfitting means the model is too flexible for the simple dataset, which leads it to learn the pattern of noises instead of actual data and memorising it.
 - Underfitting => Model Capacity < Data Complexity
-- Overfitting => Model Capacity>>    - Longest palindromic substring
-    - Longest increasing subsequence
-    - Longest common substring
-    - Box stacking
-    - Unique paths without obstacles
-    - Unique paths with obstacles
-    - 0-1 Knapsack
-    - Coin change
-    - Minimum coin change Data Complexity (Noise Level included)
+- Overfitting => Model Capacity>> Data Complexity (Noise Included)
 ### Bias Variance Tradeoff
 - Bias is the error that occurs due to simplification of the function
 - Variance is the error that stems from the high sensitivity of model to noise and other changes.
