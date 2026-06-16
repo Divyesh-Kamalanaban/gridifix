@@ -10,6 +10,11 @@ The repository includes built-in experiment tracking via **MLflow** to monitor, 
 
 ## Core Architecture & Features
 
+<p align="center">
+<img src="docs/assets/gridifix-architecture.png">
+</p>
+
+
 * **High-Speed DLPF Solver:** Native Python implementation of a Distribution Linear Power Flow solver, accelerating voltage-magnitude computations well beyond conventional non-linear Newton-Raphson methods.
 * **Hybrid Deep Learning + RF Topology:** * **Keras DNN:** Models standard, non-faulted grid behaviors to predict expected bus voltages, angles, and line power flows.
 * **Residual Analytics Engine:** Computes real-time spatial deviations (residuals) between live measurements and neural network baselines to isolate anomalous footprints.
@@ -20,11 +25,6 @@ The repository includes built-in experiment tracking via **MLflow** to monitor, 
 * **Maturity & Experiment MLOps:** Integrated tracking engine using MLflow (`mlflow.db` backend) to record metrics, hyperparameter adjustments, and model weights across training iterations.
 
 ---
-## Architecture
-<p align="center">
-<img src="docs/assets/gridifix-architecture.png">
-</p>
-
 ## Installation & Setup
 
 Configure your runtime environment utilizing Conda to isolate core machine learning and grid simulation binaries.
