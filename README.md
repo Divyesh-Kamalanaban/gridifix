@@ -20,6 +20,10 @@ The repository includes built-in experiment tracking via **MLflow** to monitor, 
 * **Maturity & Experiment MLOps:** Integrated tracking engine using MLflow (`mlflow.db` backend) to record metrics, hyperparameter adjustments, and model weights across training iterations.
 
 ---
+## Architecture
+<p align="center">
+<img src="docs/assets/gridifix-architecture.png">
+</p>
 
 ## Installation & Setup
 
