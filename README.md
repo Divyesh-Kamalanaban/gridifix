@@ -65,6 +65,31 @@ python src/main.py
 
 ---
 
+## Experimental Results & Performance
+
+Gridifix leverages **MLflow** for robust experiment tracking and model validation. Below are the training profiles and metric convergence charts extracted from a 100-step execution snapshot (`run: bemused-fly-207`).
+
+### 1. Training & Validation Convergence
+Both core loss metrics demonstrate steady convergence with no divergence or overfitting signs, proving the training pipeline's stability over the 21k synthetic samples.
+
+| Training & Validation Loss | Training & Validation MAE |
+| :---: | :---: |
+| <img src="docs/assets/loss.png" width="100%" alt="Training Loss Graph"><br>*Training Loss Convergence* | <img src="docs/assets/mae.png" width="100%" alt="Training MAE Graph"><br>*Training Mean Absolute Error (MAE)* |
+| <img src="docs/assets/val_loss.png" width="100%" alt="Validation Loss Graph"><br>*Validation Loss Convergence* | <img src="docs/assets/val_mae.png" width="100%" alt="Validation MAE Graph"><br>*Validation Mean Absolute Error (MAE)* |
+
+### 2. Final Evaluation Summary
+At step 100, the standalone test-set benchmarks confirm structural precision for spatial residual mapping:
+
+<p align="left">
+  <img src="docs/assets/validation_loss.png" width="48%" alt="Final Validation Loss">
+  <img src="docs/assets/validation_mae.png" width="48%" alt="Final Validation MAE">
+</p>
+
+* **Final Validation Loss:** `0.08`
+* **Final Validation MAE:** `0.12`
+
+---
+
 ## Repository Structure
 
 ```text
