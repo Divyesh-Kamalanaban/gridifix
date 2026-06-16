@@ -104,4 +104,4 @@ Contributions maximizing solver speed, expanding MV topologies, or optimizing th
 
 ## License
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+Distributed under the **APACHE 2.0 License**. See `LICENSE` for more information.
