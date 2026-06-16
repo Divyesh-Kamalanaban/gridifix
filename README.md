@@ -60,7 +60,13 @@ To execute the automated end-to-end data generation, training, and validation pi
 
 ```bash
 python src/main.py
+```
 
+## Track with MLFlow
+Use MLFlow to validate and track the model performance and results in real time. To do so, start the MLFLow local server with:
+
+```bash
+mlflow server --port 5000
 ```
 
 ---
