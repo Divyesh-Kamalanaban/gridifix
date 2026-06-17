@@ -116,7 +116,7 @@ gridifix/
 │   └── main.py               # Application orchestration and pipeline entry point
 ├── .gitignore                # Target build file ignores
 ├── fault_detection_dataset.csv # Base synthetic dataset file
-├── LICENSE                   # MIT License
+├── LICENSE                   # APACHE 2.0 License
 ├── mlflow.db                 # SQLite relational database storage for MLflow runs
 ├── requirements.txt          # Framework dependencies (Keras, YDF, pandapower, mlflow)
 └── README.md                 # System documentation
